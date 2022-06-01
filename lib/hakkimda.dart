@@ -12,7 +12,7 @@ class _hakkimdaState extends State<hakkimda> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hakkımdadaa'),
+        title: Text('Hakkımda'),
         backgroundColor: Colors.purple,
         centerTitle: true,
       ),
