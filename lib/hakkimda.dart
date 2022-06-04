@@ -12,7 +12,7 @@ class _hakkimdaState extends State<hakkimda> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hakkımda'),
+        title: Text('Hasret Özekinci'),
         backgroundColor: Colors.purple,
         centerTitle: true,
       ),
@@ -24,7 +24,12 @@ class _hakkimdaState extends State<hakkimda> {
               child: Container(
                 child: Column(
                   children: [
-                    Text('Deneme'),
+                    Image.asset("assets/images/ogrenci.jpg"),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                        'ULUDAĞ ÜNİVERSİTESİ \nTBMYO \nBilgisayar Programcılığı'),
                   ],
                 ),
               ),
