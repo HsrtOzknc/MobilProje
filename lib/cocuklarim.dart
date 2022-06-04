@@ -26,6 +26,10 @@ class _cocuklarimState extends State<cocuklarim> {
               child: Container(
                 child: Column(
                   children: [
+                    Image.asset("assets/images/cocuklarim.jpg"),
+                    SizedBox(
+                      height: 10,
+                    ),
                     Text('Çocuklarım hakkında bilgiler'),
                   ],
                 ),
