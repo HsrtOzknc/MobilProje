@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:proje/cocuklarim.dart';
+import 'package:proje/hobilerim.dart';
 
+import 'esim.dart';
 import 'hakkimda.dart';
 
 class anasayfa extends StatelessWidget {
@@ -24,17 +27,58 @@ class anasayfa extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                  ElevatedButton(
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const hakkimda(),
+                  Column(
+                    children: [
+                      ElevatedButton(
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const hakkimda(),
+                          ),
+                        ),
+                        child: Text("Hakkımda"),
                       ),
-                    ),
-                    child: Text("Hakkımda"),
+                    ],
                   ),
-                  SizedBox(
-                    height: 30,
+                  Row(
+                    children: [
+                      SizedBox(
+                        width: 10,
+                      ),
+                      ElevatedButton(
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const esim(),
+                          ),
+                        ),
+                        child: Text("Eşim"),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      ElevatedButton(
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const cocuklarim(),
+                          ),
+                        ),
+                        child: Text("Çocuklarım"),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      ElevatedButton(
+                        onPressed: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const hobilerim(),
+                          ),
+                        ),
+                        child: Text("Hobilerim"),
+                      ),
+                    ],
                   ),
                 ],
               ),
