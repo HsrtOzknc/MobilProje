@@ -34,6 +34,13 @@ class anasayfa extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           ElevatedButton(
+                            style: ButtonStyle(
+                              shape: MaterialStateProperty.all(
+                                RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18.0),
+                                ),
+                              ),
+                            ),
                             onPressed: () => Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -43,6 +50,13 @@ class anasayfa extends StatelessWidget {
                             child: Text("Hakkımda"),
                           ),
                           ElevatedButton(
+                            style: ButtonStyle(
+                              shape: MaterialStateProperty.all(
+                                RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(18.0),
+                                ),
+                              ),
+                            ),
                             onPressed: () => Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -62,6 +76,13 @@ class anasayfa extends StatelessWidget {
                         width: 10,
                       ),
                       ElevatedButton(
+                        style: ButtonStyle(
+                          shape: MaterialStateProperty.all(
+                            RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18.0),
+                            ),
+                          ),
+                        ),
                         onPressed: () => Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -74,6 +95,13 @@ class anasayfa extends StatelessWidget {
                         width: 10,
                       ),
                       ElevatedButton(
+                        style: ButtonStyle(
+                          shape: MaterialStateProperty.all(
+                            RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18.0),
+                            ),
+                          ),
+                        ),
                         onPressed: () => Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -86,6 +114,13 @@ class anasayfa extends StatelessWidget {
                         width: 10,
                       ),
                       ElevatedButton(
+                        style: ButtonStyle(
+                          shape: MaterialStateProperty.all(
+                            RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18.0),
+                            ),
+                          ),
+                        ),
                         onPressed: () => Navigator.push(
                           context,
                           MaterialPageRoute(

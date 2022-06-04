@@ -11,7 +11,6 @@ class _cocuklarimState extends State<cocuklarim> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 193, 135, 218),
       appBar: AppBar(
         backgroundColor: Colors.lime,
         title: Text(
