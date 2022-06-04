@@ -24,9 +24,7 @@ class _hakkimdaState extends State<hakkimda> {
               child: Container(
                 child: Column(
                   children: [
-                    Image.asset(
-                      "assets/images/ogrenci.jpg",
-                    ),
+                    Image.asset("assets/images/ogrenci.jpg"),
                     SizedBox(
                       height: 10,
                     ),
