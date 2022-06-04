@@ -24,7 +24,7 @@ class _lokumState extends State<lokum> {
               child: Container(
                 child: Column(
                   children: [
-                    Text('kedim Lokum hakkında'),
+                    Text('Kedim Lokum 6 yaşında'),
                   ],
                 ),
               ),
