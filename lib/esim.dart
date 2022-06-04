@@ -20,11 +20,19 @@ class _esimState extends State<esim> {
         child: ListView(
           children: [
             Padding(
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.all(10),
               child: Container(
                 child: Column(
                   children: [
-                    Text('Eşim Hakkında bilgiler'),
+                    Image.asset(
+                      "assets/images/esim2.jpg",
+                      width: 400,
+                      height: 500,
+                    ),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Text('TAMER ÖZEKİNCİ\n Çocuk Cerrahisi Uzmanı'),
                   ],
                 ),
               ),
