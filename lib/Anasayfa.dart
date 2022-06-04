@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proje/ailem.dart';
 import 'package:proje/cocuklarim.dart';
 import 'package:proje/hobilerim.dart';
 
@@ -29,18 +30,33 @@ class anasayfa extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      ElevatedButton(
-                        onPressed: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const hakkimda(),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          ElevatedButton(
+                            onPressed: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const hakkimda(),
+                              ),
+                            ),
+                            child: Text("Hakkımda"),
                           ),
-                        ),
-                        child: Text("Hakkımda"),
+                          ElevatedButton(
+                            onPressed: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const ailem(),
+                              ),
+                            ),
+                            child: Text("Ailem"),
+                          ),
+                        ],
                       ),
                     ],
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SizedBox(
                         width: 10,

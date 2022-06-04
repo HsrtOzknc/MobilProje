@@ -26,11 +26,51 @@ class _cocuklarimState extends State<cocuklarim> {
               child: Container(
                 child: Column(
                   children: [
-                    Image.asset("assets/images/cocuklarim.jpg"),
+                    Image.asset(
+                      "assets/images/kizim.jpg",
+                      width: 600,
+                      height: 600,
+                    ),
+                    Text("SENA ÖZEKİNCİ"),
                     SizedBox(
                       height: 10,
                     ),
-                    Text('Çocuklarım hakkında bilgiler'),
+                    Image.asset(
+                      "assets/images/oglum1.jpg",
+                      width: 400,
+                      height: 400,
+                    ),
+                    Text("AHMET ÖZEKİNCİ"),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Image.asset(
+                      "assets/images/oglum.jpg",
+                      width: 400,
+                      height: 400,
+                    ),
+                    Text("SELİM ÖZEKİNCİ"),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Image.asset(
+                      "assets/images/lokum.jpg",
+                      width: 400,
+                      height: 400,
+                    ),
+                    Text("LOKUM"),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Image.asset(
+                      "assets/images/bulut.jpg",
+                      width: 400,
+                      height: 400,
+                    ),
+                    Text("BULUT"),
+                    SizedBox(
+                      height: 10,
+                    ),
                   ],
                 ),
               ),
