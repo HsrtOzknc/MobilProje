@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:proje/Anasayfa.dart';
-import 'package:proje/bulut.dart';
-import 'package:proje/cocuklarim.dart';
-import 'package:proje/esim.dart';
-import 'package:proje/hakkimda.dart';
-import 'package:proje/lokum.dart';
 
 void main() {
   runApp(MyApp());
