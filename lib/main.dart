@@ -20,6 +20,6 @@ class AnaEkran extends StatelessWidget {
   const AnaEkran({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Anasayfa();
+    return anasayfa();
   }
 }
