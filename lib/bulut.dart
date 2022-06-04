@@ -24,7 +24,7 @@ class _bulutState extends State<bulut> {
               child: Container(
                 child: Column(
                   children: [
-                    Text('Kedim bulut hakkında'),
+                    Text('Kızımın kedisi Bulut 2 yaşında'),
                   ],
                 ),
               ),
