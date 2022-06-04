@@ -11,11 +11,19 @@ class _cocuklarimState extends State<cocuklarim> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 193, 135, 218),
       appBar: AppBar(
+        backgroundColor: Colors.lime,
         title: Text(
           'Çocuklarım',
         ),
-        backgroundColor: Colors.lime,
+        automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
         centerTitle: true,
       ),
       body: SafeArea(
