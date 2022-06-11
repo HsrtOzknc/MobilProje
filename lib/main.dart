@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:proje/Anasayfa.dart';
+
+import 'Anasayfa.dart';
 
 void main() {
   runApp(MyApp());
 }
 
+//https://dr-tamer-ozekinci-cocuk-cerrahisi-uzman.business.site/
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override

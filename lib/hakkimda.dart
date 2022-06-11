@@ -17,27 +17,25 @@ class _hakkimdaState extends State<hakkimda> {
         centerTitle: true,
       ),
       body: SafeArea(
-        child: ListView(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                child: Column(
-                  children: [
-                    Image.asset(
-                      "assets/images/ogrenci.jpg",
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Text(
-                        'ULUDAĞ ÜNİVERSİTESİ \nTBMYO \nBilgisayar Programcılığı\n'
-                        'Sınıf Ögretmeni\nOMÜ Kimya Öğretmenliği'),
-                  ],
-                ),
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              child: Column(
+                children: [
+                  Image.asset(
+                    "assets/images/ogrenci.jpg",
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                      'ULUDAĞ ÜNİVERSİTESİ \nTBMYO \nBilgisayar Programcılığı\n'
+                      'Sınıf Ögretmeni\nOMÜ Kimya Öğretmenliği'),
+                ],
               ),
-            )
-          ],
+            ),
+          ),
         ),
       ),
     );
