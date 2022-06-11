@@ -23,6 +23,13 @@ class ailem extends StatelessWidget {
                     Image.asset(
                       "assets/images/aile.jpg",
                     ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      'Eşim ve çocuklarımla birlikte bir pazar kahvaltısı.\n\n Birlikte geçirilen hoş bir zaman.\n\n Yaşam defterine eklenen  özel bir sayfa daha...',
+                      style: TextStyle(fontSize: 20, color: Colors.white),
+                    ),
                   ],
                 ),
               ),
