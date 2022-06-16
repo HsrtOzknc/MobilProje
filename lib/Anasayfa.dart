@@ -13,18 +13,18 @@ class anasayfa extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sayfama Hoşgeldiniz'),
+        title: const Text('Sayfama Hoşgeldiniz'),
         backgroundColor: Colors.red,
         centerTitle: true,
       ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.all(30),
+            padding: const EdgeInsets.all(30),
             child: Column(
               children: [
                 Image.asset('assets/images/ben.jpg'),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
                 Column(
@@ -46,7 +46,7 @@ class anasayfa extends StatelessWidget {
                               builder: (context) => const hakkimda(),
                             ),
                           ),
-                          child: Text("Hakkımda"),
+                          child: const Text("Hakkımda"),
                         ),
                         ElevatedButton(
                           style: ButtonStyle(
@@ -62,7 +62,7 @@ class anasayfa extends StatelessWidget {
                               builder: (context) => const ailem(),
                             ),
                           ),
-                          child: Text("Ailem"),
+                          child: const Text("Ailem"),
                         ),
                       ],
                     ),
@@ -71,7 +71,7 @@ class anasayfa extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     ElevatedButton(
@@ -88,9 +88,9 @@ class anasayfa extends StatelessWidget {
                           builder: (context) => const esim(),
                         ),
                       ),
-                      child: Text("Eşim"),
+                      child: const Text("Eşim"),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     ElevatedButton(
@@ -107,9 +107,9 @@ class anasayfa extends StatelessWidget {
                           builder: (context) => const cocuklarim(),
                         ),
                       ),
-                      child: Text("Çocuklarım"),
+                      child: const Text("Çocuklarım"),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     ElevatedButton(
@@ -126,7 +126,7 @@ class anasayfa extends StatelessWidget {
                           builder: (context) => const hobilerim(),
                         ),
                       ),
-                      child: Text("Hobilerim"),
+                      child: const Text("Hobilerim"),
                     ),
                   ],
                 ),
